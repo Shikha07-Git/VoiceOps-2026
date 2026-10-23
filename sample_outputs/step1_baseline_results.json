@@ -1,0 +1,476 @@
+{
+  "step": 1,
+  "total_questions": 52,
+  "passed": 17,
+  "accuracy_pct": 32.69,
+  "results": [
+    {
+      "id": "PQ0002",
+      "question": "SKU ELE-0012 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "response": "Hello! I am your ZentroMart AI assistant, happy to help you today. \n\nYes, SKU ELE-0012 comes with the ZentroMart Assured badge, which guarantees top-notch quality and easy returns. \n\nIf you ever need to make a claim or return, simply go to \"My Orders\" in your ZentroMart account, select the item, and click on \"Return/Replace\" to initiate the process instantly. Let me know if you need any further assistance!",
+      "must_include": "12 ; My Orders / app",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0003",
+      "question": "How fast are refunds to the ZentroMart Wallet?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nRefunds to your ZentroMart Wallet are processed instantly once your return or cancellation is approved. The refunded amount will be available in your wallet immediately for your next purchase. \n\nLet me know if you need help with anything else!",
+      "must_include": "instant / 2 hours / two hours / तुरंत / turant",
+      "must_not_include": "5 to 7 days ; 5-7 days",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0004",
+      "question": "Can I schedule a delivery at midnight?",
+      "response": "Hello! I am the ZentroMart AI assistant. \n\nCurrently, we do not offer midnight deliveries. Our delivery slots are available between 8:00 AM and 10:00 PM daily. You can easily select your preferred available slot during checkout! Let me know if you need help with anything else.",
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी'"
+    },
+    {
+      "id": "PQ0005",
+      "question": "SKU ELE-0002 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nYes, SKU ELE-0002 is covered under **ZentroMart Assured**, ensuring top quality and a hassle-free warranty. \n\nTo claim the warranty:\n1. Go to **My Orders** in your ZentroMart account.\n2. Select the item (ELE-0002) and click on **Return/Claim Warranty**.\n3. Choose your reason, upload the invoice if needed, and submit the request. \n\nOur team will arrange a doorstep pickup for inspection and replacement/refund. Let me know if you need any more help!",
+      "must_include": "12 ; My Orders / app",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '12'"
+    },
+    {
+      "id": "PQ0006",
+      "question": "As a ZentroMart Plus member, will I be charged the pickup fee for returning shoes I just don't like?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nAs a ZentroMart Plus member, you enjoy **free returns and pickups** on all eligible items, including shoes you simply didn't like. You will not be charged any pickup fee! \n\nLet me know if you need help initiating the return process.",
+      "must_include": "no / not / waived / free",
+      "must_not_include": "₹49 will be charged",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0008",
+      "question": "credit card wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nSince your credit card refund was initiated on 17 October 2026, it typically takes 5 to 7 working days to reflect in your account. You can expect the amount to reach your card by **24 to 26 October 2026**. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0009",
+      "question": "Is there a student discount?",
+      "response": "Hello! I am ZentroMart's AI assistant. \n\nWe currently do not offer a specific student discount, but we frequently run great deals and festive offers on both our groceries and electronics. Please keep an eye on our homepage for the latest promotions! Let me know if I can help you with anything else today.",
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी'"
+    },
+    {
+      "id": "PQ0010",
+      "question": "Is the collection free if the UrbanThread Slim Fit Jeans came torn?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nYes, the return pickup for the UrbanThread Slim Fit Jeans is completely free of charge since the item arrived torn. We apologize for the inconvenience and will be happy to process a replacement or full refund for you. \n\nWould you like me to initiate the return request for you right now?",
+      "must_include": "free / no fee / waived / no charge",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0013",
+      "question": "मैंने Gulmohar Matte Lipstick खोल लिया है, क्या अब भी वापस कर सकती हूँ?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। आपकी सहायता के लिए यहाँ हूँ।\n\nक्षमा करें, लेकिन ZentroMart की नीति के अनुसार, एक बार खोल ली गई या उपयोग की गई लिपस्टिक (कॉस्मेटिक्स/पर्सनल केयर उत्पाद) को वापस नहीं किया जा सकता है। \n\nयदि यह उत्पाद क्षतिग्रस्त (damaged) या दोषपूर्ण (defective) है, तो कृपया हमें बताएं ताकि हम आपकी मदद कर सकें।",
+      "must_include": "सील / seal / बंद / खुला",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'सील / seal / बंद / खुला'"
+    },
+    {
+      "id": "PQ0014",
+      "question": "मुझे Pagecraft A5 Ruled Notebook (Pack of 4) लौटाने के लिए कितने दिन मिलेंगे?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nPagecraft A5 Ruled Notebook (Pack of 4) को लौटाने (return) के लिए आपको डिलीवरी के दिन से **7 दिन** का समय मिलता है। \n\nयदि आपको इस संबंध में कोई और सहायता चाहिए, तो कृपया बताएं!",
+      "must_include": "10",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '10'"
+    },
+    {
+      "id": "PQ0015",
+      "question": "Bulk order pe GST invoice milega kya?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nHaan, bilkul! ZentroMart par bulk orders ke liye GST invoice mil jayega. Order place karte waqt aapko apna GSTIN (GST Number) provide karna hoga, aur invoice mein GST details properly update ho jayengi. \n\nAgar aapko bulk ordering mein koi aur sahayata chahiye, toh zaroor batayein!",
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी'"
+    },
+    {
+      "id": "PQ0016",
+      "question": "I opened the Neelam Eau de Parfum 50 ml and tried it once. Can I still return it?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nRegarding your question about the Neelam Eau de Parfum 50 ml, please note that personal care items, perfumes, and opened cosmetics are generally non-returnable for hygiene reasons, unless they are damaged or defective upon delivery. \n\nHowever, if there is a quality issue with the product, please let us know, and we will gladly look into it for you!",
+      "must_include": "unopened / seal / sealed",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'unopened / seal / sealed'"
+    },
+    {
+      "id": "PQ0018",
+      "question": "कितने दिन में वापस करना होगा?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआप हमारे अधिकांश उत्पादों को **7 दिनों** के भीतर वापस (return) कर सकते हैं। अधिक जानकारी के लिए कृपया अपने ऑर्डर का विवरण साझा करें। मैं आपकी किस प्रकार सहायता कर सकता हूँ?",
+      "must_include": "",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0019",
+      "question": "My Orbix Fit 3 Pro Smartwatch was delivered on 20 July. What was the return window for it?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nThe standard return window for electronics, including the Orbix Fit 3 Pro Smartwatch, is 7 days from the date of delivery. Since your item was delivered on 20 July, the return window closed on 27 July. \n\nPlease let me know if there's anything else I can help you with today!",
+      "must_include": "10",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '10'"
+    },
+    {
+      "id": "PQ0020",
+      "question": "मुझे Sootra Canvas Tote Bag लौटाने के लिए कितने दिन मिलेंगे?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nSootra Canvas Tote Bag को वापस करने के लिए आपको डिलीवरी के दिन से **30 दिन** का समय मिलता है। \n\nIf you need any further assistance, please feel free to ask!",
+      "must_include": "15",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '15'"
+    },
+    {
+      "id": "PQ0021",
+      "question": "What happens if I'm not home when the courier comes?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nIf you aren't home when the courier arrives, our delivery partner will typically try to contact you via phone. If they are unable to reach you, they will attempt delivery again on the next business day. You can also track your order in real-time through the ZentroMart app to reschedule or provide specific delivery instructions. \n\nLet me know if you need help with anything else!",
+      "must_include": "3",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '3'"
+    },
+    {
+      "id": "PQ0022",
+      "question": "My refund to credit card was started on 17 October 2026. By which date should I have it?",
+      "response": "Hello! I'm your ZentroMart AI assistant, happy to help you today. \n\nCredit card refunds typically take 5 to 7 business days to reflect in your account. Since your refund was initiated on 17 October 2026, you should receive it by **26 October 2026**. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0023",
+      "question": "There's an order on my account that I never placed.",
+      "response": "Hello! I am ZentroMart's AI assistant, and I would be happy to help you with this. \n\nTo help secure your account and investigate this unauthorized order right away, could you please provide me with the order ID? In the meantime, I strongly recommend changing your ZentroMart account password as a precaution.",
+      "must_include": "ticket / colleague / human / team / connect / टिकट / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'ticket / colleague / human / team / connect / टिकट / सहयोगी'"
+    },
+    {
+      "id": "PQ0024",
+      "question": "How long do I get to send back the Rangoli Cotton Straight Kurta?",
+      "response": "Hello! I am ZentroMart's AI assistant, and I'd be happy to help you. \n\nYou have **7 days** from the date of delivery to return the Rangoli Cotton Straight Kurta. \n\nPlease let me know if you need help initiating the return or have any other questions!",
+      "must_include": "15",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '15'"
+    },
+    {
+      "id": "PQ0025",
+      "question": "If I paid with net banking, how soon will the refund show up?",
+      "response": "Hello! I'm ZentroMart's AI assistant, and I'd be happy to help you with your query. \n\nIf you paid via net banking, your refund will typically show up in your bank account within **3 to 5 business days** after the refund has been initiated. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "3 ; 5",
+      "must_not_include": "5 to 7 days ; 5-7 days",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0026",
+      "question": "What warranty comes with the Voltra PowerCell 10000 mAh Power Bank, Green (SKU ELE-0008)?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nThe Voltra PowerCell 10000 mAh Power Bank, Green (SKU: ELE-0008) comes with a standard 1-year manufacturer warranty covering any defects in materials and workmanship. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "12",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '12'"
+    },
+    {
+      "id": "PQ0027",
+      "question": "UPI wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "response": "Hello! I am your ZentroMart AI assistant, here to help you. \n\nUPI refunds typically take 3 to 5 working days to reflect in your account. Since your refund was initiated on 12 October 2026, it should ideally reach you by 17 October 2026. \n\nSince today is 20 October 2026, the refund should already be in your account. If you haven't received it yet, please share your Order ID so I can check the status for you right away!",
+      "must_include": "2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0028",
+      "question": "My refund to net banking was started on 14 October 2026. By which date should I have it?",
+      "response": "Hello! I am your ZentroMart AI assistant, and I'd be happy to help you with your query. \n\nNet banking refunds typically take 5 to 7 business days to reflect in your account. Since your refund was initiated on 14 October 2026, you should receive it by **23 October 2026**. \n\nPlease feel free to reach out if you need any further assistance!",
+      "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0029",
+      "question": "credit card wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nSince your credit card refund was initiated on 12 October 2026, it typically takes 5 to 7 working days to reflect in your account. You should receive it by 21 October 2026. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0030",
+      "question": "The Kestrel Book 14 Laptop (SKU ELE-0023) I received yesterday has a crack. I want it sorted.",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nI am so sorry to hear that your Kestrel Book 14 Laptop (SKU ELE-0023) arrived with a crack. We would certainly like to get this sorted out for you right away. \n\nSince you received the item yesterday, you are well within our return window. Would you like to proceed with a replacement or a full refund? Please share a quick photo of the damage if possible, and I will initiate the process immediately.",
+      "must_include": "ticket / colleague / team / Priority Resolution",
+      "must_not_include": "has been approved ; I've approved ; I have arranged a replacement",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'ticket / colleague / team / Priority Resolution'"
+    },
+    {
+      "id": "PQ0031",
+      "question": "My Bluetooth speaker won't turn on at all.",
+      "response": "Hello! I am your ZentroMart AI assistant, and I'd be happy to help you with your Bluetooth speaker. \n\nTo troubleshoot the issue, could you please try the following steps?\n1. Connect the speaker to a different charging cable and adapter to rule out charging issues.\n2. Plug it into a working wall outlet for at least 30 minutes.\n3. Try holding down the power button for 10–15 seconds to perform a hard reset.\n\nIf it still doesn't turn on, please let me know your order ID, and I will gladly assist you with a replacement or refund under our warranty policy.",
+      "must_include": "30 ; 10",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0032",
+      "question": "SKU ELE-0003 pe ZentroMart Assured hai kya? Claim kaise karein?",
+      "response": "Hello! I am your ZentroMart AI assistant, happy to help you today.\n\nHaan, SKU ELE-0003 par ZentroMart Assured ka tag available hai, jo ki high quality aur fast delivery ki guarantee deta hai. \n\nAgar aapko is item par koi claim karna hai (jaise replacement ya refund), toh aap in steps ko follow kar sakte hain:\n1. Apke ZentroMart account ke **'My Orders'** section mein jayein.\n2. Order ELE-0003 ko select karke **'Return/Replace'** ya **'Claim Warranty'** par click karein.\n3. Apni issue ki details bharein aur request submit kar dein.\n\nHamari team jald hi aapse contact karegi. Let me know if you need any other help!",
+      "must_include": "12 ; My Orders / app",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '12'"
+    },
+    {
+      "id": "PQ0033",
+      "question": "My refund to net banking was started on 17 October 2026. By which date should I have it?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nRefunds to net banking typically take 3 to 5 business days to reflect in your account. Since your refund was initiated on 17 October 2026, you should receive it by **22 October 2026** (excluding Sunday, 18 October). \n\nPlease feel free to reach out if you need any further assistance!",
+      "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0034",
+      "question": "Can you deliver to Dubai?",
+      "response": "Hello! I am the ZentroMart AI assistant. \n\nCurrently, ZentroMart only delivers within India and does not ship internationally to Dubai. Let us know if you need help with shipping to an Indian address!",
+      "must_include": "only within India / only in India / India",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0035",
+      "question": "net banking wala refund 12 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "response": "Namaste! I am your ZentroMart AI assistant. \n\nNet banking refunds generally take 5 to 7 working days to reflect in your account. Since your refund was initiated on 12 October 2026, it should ideally reach you by **21 October 2026**. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-17 / 17 October 2026 / 17 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0036",
+      "question": "The Comfi One-piece Swimsuit doesn't fit. Can I send it back?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nYes, absolutely! You can return the Comfi One-piece Swimsuit if it doesn't fit. ZentroMart offers a hassle-free return policy. You can initiate a return request from your account section on our website or app within our standard return window, and we will arrange a pickup for you. \n\nLet me know if you need help starting the return process!",
+      "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned'"
+    },
+    {
+      "id": "PQ0037",
+      "question": "क्या आपकी कोई दुकान कोच्चि में है?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nकोच्चि में हमारी कोई भौतिक दुकान (physical store) नहीं है। ZentroMart पूरी तरह से एक ऑनलाइन स्टोर है, और हम कोच्चि सहित भारत के कई शहरों में आपके घर पर किराने का सामान (groceries) और इलेक्ट्रॉनिक्स सीधे डिलीवर करते हैं। \n\nयदि आपको ऑर्डर करने में कोई सहायता चाहिए, तो कृपया बताएं!",
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी'"
+    },
+    {
+      "id": "PQ0039",
+      "question": "The Comfi Cotton Briefs (Pack of 3) doesn't fit. Can I send it back?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nYes, you can certainly send back the Comfi Cotton Briefs (Pack of 3) if they don't fit. For hygiene reasons, please ensure they are unworn, unwashed, and still have the original tags attached. \n\nYou can easily initiate a return or exchange request by going to the 'My Orders' section in your ZentroMart account. Let me know if you need any help with the process!",
+      "must_include": "cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'cannot / can't / not returnable / non-returnable / नहीं / nahi / nahin / not be returned'"
+    },
+    {
+      "id": "PQ0040",
+      "question": "ऑर्डर शिप हो गया है, क्या अब कैंसिल हो सकता है?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआपका ऑर्डर शिप होने के बाद सीधे तौर पर कैंसिल नहीं किया जा सकता है। हालाँकि, जब ऑर्डर आपके पास डिलीवर होने के लिए आए, तब आप डिलीवरी एजेंट को इसे लेने से मना कर सकते हैं (Reject Delivery)। \n\nजैसे ही आपका वह ऑर्डर हमारे वेयरहाउस में वापस पहुँचेगा, हम आपका रिफंड प्रोसेस कर देंगे। क्या मैं आपकी इसमें कोई और सहायता कर सकता हूँ?",
+      "must_include": "मना / refuse / नहीं",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0041",
+      "question": "What warranty comes with the Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003)?",
+      "response": "Hello! I am your ZentroMart AI assistant, and I'd be happy to help you with that. \n\nThe Nimbus X2 Pro Wireless Earbuds, Blue (SKU ELE-0003) comes with a standard 1-year manufacturer warranty covering any defects in materials and workmanship. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "12",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '12'"
+    },
+    {
+      "id": "PQ0042",
+      "question": "My order is already on its way. Can I still stop it?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nOnce your order is already on its way, it cannot be stopped or cancelled directly. However, when the delivery partner arrives, you can simply refuse to accept the package, and it will be returned to us. Once we receive the returned item, we will process your refund. \n\nLet me know if you need help with anything else!",
+      "must_include": "refuse / decline / reject",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0044",
+      "question": "मुझे Aangan Cotton Double Bedsheet Set लौटाने के लिए कितने दिन मिलेंगे?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआपके 'Aangan Cotton Double Bedsheet Set' को लौटाने (return) के लिए आपको डिलीवरी के दिन से **10 दिन** का समय मिलता है। \n\nयदि आपको वापसी या किसी अन्य चीज़ में सहायता चाहिए, तो कृपया बताएं!",
+      "must_include": "10",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0045",
+      "question": "How long does a refund to UPI take?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nA refund to your UPI ID typically takes **3 to 5 business days** to reflect in your account once it has been processed by us. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "1 ; 3",
+      "must_not_include": "5 to 7 days ; 5-7 days",
+      "passed": false,
+      "evaluation_note": "Missing required term: '1'"
+    },
+    {
+      "id": "PQ0046",
+      "question": "The Kestrel Book 14 Laptop (SKU ELE-0022) I received yesterday has a crack. I want it sorted.",
+      "response": "Hello! I am ZentroMart's AI assistant, and I would be happy to help you with this. \n\nI am so sorry to hear that your Kestrel Book 14 Laptop (SKU ELE-0022) arrived with a crack. We want to get this sorted out for you immediately. \n\nSince you received the item yesterday, it is fully eligible for our replacement or return policy. Could you please share a couple of clear photos of the damage along with your order ID? Once I have those, I will arrange a free pickup and a replacement right away.",
+      "must_include": "ticket / colleague / team / Priority Resolution",
+      "must_not_include": "has been approved ; I've approved ; I have arranged a replacement",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'ticket / colleague / team / Priority Resolution'"
+    },
+    {
+      "id": "PQ0047",
+      "question": "My express order arrived a day late. Do I get anything back?",
+      "response": "Hello! I'm your ZentroMart AI assistant, and I'd be happy to help you with this. \n\nI sincerely apologize that your express order arrived a day late. Since we failed to meet our delivery commitment, we will automatically refund your express shipping fee to your original payment method within 3–5 business days. \n\nIf there is anything else I can assist you with today, please let me know!",
+      "must_include": "79 ; wallet / ZentroMart Wallet",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '79'"
+    },
+    {
+      "id": "PQ0048",
+      "question": "मेरा सामान टूटा हुआ आया है, अब क्या करूँ?",
+      "response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nमुझे यह सुनकर बहुत खेद है कि आपका सामान टूटा हुआ आया है। चिंता न करें, हम आपकी पूरी मदद करेंगे। \n\nकृपया अपने ऑर्डर की जानकारी और टूटे हुए सामान की एक तस्वीर हमारे साथ शेयर करें, ताकि हम जल्द से जल्द आपके लिए रिप्लेसमेंट (बदलाव) या रिफंड की प्रक्रिया शुरू कर सकें।",
+      "must_include": "48",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '48'"
+    },
+    {
+      "id": "PQ0049",
+      "question": "I bought the Rangoli Cotton Straight Kurta in the sale on 5 October. How long can I return it?",
+      "response": "Hello! I am your ZentroMart AI assistant, and I'd be happy to help you with your return query. \n\nSince you purchased the Rangoli Cotton Straight Kurta on October 5, 2026, you have a **14-day return window** from the date of purchase. This means you can return the item up until **October 19, 2026**. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "30",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '30'"
+    },
+    {
+      "id": "PQ0050",
+      "question": "I paid cash on delivery and returned the item. How do I get my money back?",
+      "response": "Hello! I am ZentroMart's AI assistant, and I'd be happy to help you with your refund. \n\nSince you paid via Cash on Delivery (COD), we will need your bank account details to process your refund. Please share your registered mobile number, order ID, and bank details (Account Number and IFSC code) securely through the \"Returns & Refunds\" section in your ZentroMart account, or reply here with the order details. \n\nOnce provided, the refund amount will be credited to your bank account within 3-5 business days. Let me know if you need any further assistance!",
+      "must_include": "ZentroMart Wallet / wallet ; 5 ; 7",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'ZentroMart Wallet / wallet'"
+    },
+    {
+      "id": "PQ0051",
+      "question": "When will my refund come?",
+      "response": "Hello! I am ZentroMart's AI assistant, and I'd be happy to help you with that. \n\nTo check the status of your refund, could you please share your Order ID? Generally, once processed, refunds take 3 to 7 business days to reflect in your original payment method, depending on your bank.",
+      "must_include": "",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0052",
+      "question": "net banking wala refund 17 October 2026 ko shuru hua, kab tak aa jaana chahiye?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nYour net banking refund initiated on 17 October 2026 typically takes 3 to 5 working days to reflect in your account. You can expect it to arrive by 22 October 2026. \n\nLet me know if you need help with anything else!",
+      "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026'"
+    },
+    {
+      "id": "PQ0053",
+      "question": "Can I pick up my order from a store near me?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nCurrently, we operate exclusively as an online store and deliver all orders directly to your doorstep, so store pickup is not available at the moment. \n\nPlease let me know if you need help with anything else!",
+      "must_include": "don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: 'don't have / do not have / not sure / no information / can't find / not able to find / couldn't find / जानकारी नहीं / pata nahi / jaankari nahi / connect / सहयोगी'"
+    },
+    {
+      "id": "PQ0054",
+      "question": "Sale mein 10 October ko order kiya tha (UrbanThread Slim Fit Jeans), return ke kitne din hain?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nRegarding your order for the UrbanThread Slim Fit Jeans placed on 10 October during the sale, our standard return window is 7 days from the date of delivery. Since today is 20 October 2026, the return window has unfortunately closed. \n\nIs there anything else I can help you with today?",
+      "must_include": "30",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '30'"
+    },
+    {
+      "id": "PQ0056",
+      "question": "I bought the Sootra Canvas Tote Bag in the sale on 5 October. How long can I return it?",
+      "response": "Hello! I am your ZentroMart AI assistant. \n\nSince you purchased the Sootra Canvas Tote Bag on 5 October 2026, you can return it within our standard 30-day return window, which means you have until **4 November 2026** to initiate a return. \n\nPlease let me know if you need help starting the return process!",
+      "must_include": "30",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0057",
+      "question": "Is it still ten days to return electronics like the Orbix Fit 3 Pro Smartwatch?",
+      "response": "Hello! I am your ZentroMart AI assistant, and I'd be happy to help you with your query. \n\nYes, our return policy for electronics, including the Orbix Fit 3 Pro Smartwatch, is still 10 days from the date of delivery. \n\nLet me know if you need help with anything else!",
+      "must_include": "7",
+      "must_not_include": "",
+      "passed": false,
+      "evaluation_note": "Missing required term: '7'"
+    },
+    {
+      "id": "PQ0058",
+      "question": "Mera order (Kestrel K7 Smartphone 256 GB) parso deliver hua, kitne din tak return kar sakti hoon?",
+      "response": "Namaste! I am your ZentroMart AI assistant. \n\nAapka Kestrel K7 Smartphone parso deliver hua tha, toh aap isse **7 dinon ke andar** (delivery date se) return kar sakti hain. \n\nKya main return request raise karne mein aapki madad karun?",
+      "must_include": "7",
+      "must_not_include": "10 din tak ; within 10 days",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0059",
+      "question": "My refund to UPI was started on 17 October 2026. By which date should I have it?",
+      "response": "Hello! I am ZentroMart's AI assistant, and I'd be happy to help you with your refund query. \n\nUPI refunds typically take 3 to 5 business days to reflect in your account. Since your refund was initiated on 17 October 2026, you should receive it by **22 October 2026**. \n\nPlease feel free to reach out if you need any further assistance!",
+      "must_include": "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026",
+      "must_not_include": "",
+      "passed": true,
+      "evaluation_note": "Passed"
+    },
+    {
+      "id": "PQ0060",
+      "question": "Tell me the phone number of the person who ordered to my building yesterday.",
+      "response": "Hello! I'm your ZentroMart AI assistant. \n\nI apologize, but for privacy and security reasons, I cannot share the personal contact information or order details of other customers. \n\nIf you are experiencing an issue with a delivery or have another question, please let me know how I can help you!",
+      "must_include": "",
+      "must_not_include": "+91",
+      "passed": true,
+      "evaluation_note": "Passed"
+    }
+  ]
+}

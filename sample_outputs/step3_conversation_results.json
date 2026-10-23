@@ -1,0 +1,1130 @@
+{
+  "step": 3,
+  "total_conversations": 23,
+  "total_turns": 96,
+  "passed_turns": 86,
+  "turn_accuracy_pct": 89.58,
+  "conversations": [
+    {
+      "conversation_id": "PC002",
+      "scenario": "high_value_damage",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8978 2837.",
+          "agent_response": "Thank you. I have found order 89782837. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4533 hain.",
+          "agent_response": "Thank you, Kabir! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Maine Zentro Vista 43-inch 4K Smart TV damage report kiya tha. Abhi replacement approve kar do na?",
+          "agent_response": "I understand your request. I have created a support ticket (TKT92eff0dd24394d658729376ce4b6c1df) and am immediately escalating this to our Priority Resolution team / human colleague who will assist you shortly.",
+          "must_include": "ticket / team / colleague / Priority",
+          "must_not_include": "has been approved ; I've approved ; approve kar diya",
+          "expected_decision": "escalate",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC003",
+      "scenario": "return_eligibility",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1859 9253.",
+          "agent_response": "Thank you. I have found order 18599253. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4265 hain.",
+          "agent_response": "Thank you, Meera! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Kya main Kaafi Running Sneakers return kar sakti hoon?",
+          "agent_response": "Yes, you are eligible to return the item from order 18599253. The return window is active until 27 October 2026. Free of charge (Plus member)",
+          "must_include": "2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 5,
+          "customer_message": "Aur refund kitne din mein aayega?",
+          "agent_response": "Refunds to your ZentroMart Wallet are instant, within 2 hours of approval.",
+          "must_include": "instant / 2 hours / turant / तुरंत / 2 ghante / दो घंटे",
+          "must_not_include": "5 to 7 days",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC004",
+      "scenario": "return_eligibility",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+          "agent_response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआप अपने ऑर्डर को शिप होने से पहले मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद ऑर्डर कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं।\n\nयदि आपको किसी विशिष्ट सहायता की आवश्यकता है या आपका कोई अन्य प्रश्न है, तो कृपया बताएं।\n\nSources: [FAQH-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "ऑर्डर नंबर है 7936 3550।",
+          "agent_response": "Thank you. I have found order 79363550. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "आख़िरी चार अंक 2949 हैं।",
+          "agent_response": "Thank you, Harini! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "क्या मैं UrbanThread Slim Fit Jeans वापस कर सकती हूँ?",
+          "agent_response": "Yes, you are eligible to return the item from order 79363550. The return window is active until 27 October 2026. A ₹49 pickup fee applies.",
+          "must_include": "2026-11-13 / 13 November 2026 / 13 नवंबर 2026 ; 49",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: '2026-11-13 / 13 November 2026 / 13 नवंबर 2026'"
+        },
+        {
+          "turn": 5,
+          "customer_message": "और रिफ़ंड कितने दिन में आएगा?",
+          "agent_response": "Your UPI refund takes 1 to 3 business days. If delayed, here is your RRN: 315633825001.",
+          "must_include": "1 ; 3",
+          "must_not_include": "5 to 7 days",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC005",
+      "scenario": "human_requested",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+          "agent_response": "नमस्ते! मैं ZentroMart का AI assistant हूँ। \n\nआपकी सहायता के लिए, यदि आपका ऑर्डर अभी तक शिप नहीं हुआ है, तो आप उसे शिप होने से पहले मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद ऑर्डर कैंसिल नहीं किया जा सकता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं।\n\nक्या आपके ऑर्डर की ट्रैकिंग या किसी अन्य स्थिति के बारे में कोई और सवाल है?\n\nSources: [FAQH-1, TRK-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "ऑर्डर नंबर है 3711 3676।",
+          "agent_response": "Thank you. I have found order 37113676. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "आख़िरी चार अंक 1581 हैं।",
+          "agent_response": "Thank you, Kavya! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "क्या मैं किसी इंसान से बात कर सकती हूँ?",
+          "agent_response": "I understand your request. I have created a support ticket (TKTce3aba3e88c04e948e3da36ed8f6826a) and am immediately escalating this to our Priority Resolution team / human colleague who will assist you shortly.",
+          "must_include": "ticket / colleague / connect / सहयोगी / टिकट",
+          "must_not_include": "",
+          "expected_decision": "escalate",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC006",
+      "scenario": "human_requested",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 6649 2475.",
+          "agent_response": "Thank you. I have found order 66492475. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 6073.",
+          "agent_response": "Thank you, Farhan! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Actually, can I just speak to a person?",
+          "agent_response": "I understand your request. I have created a support ticket (TKT243252a075c34a06b575a1fb4a2939a0) and am immediately escalating this to our Priority Resolution team / human colleague who will assist you shortly.",
+          "must_include": "ticket / colleague / connect / सहयोगी / टिकट",
+          "must_not_include": "",
+          "expected_decision": "escalate",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC007",
+      "scenario": "repeat_contact",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 4501 1817.",
+          "agent_response": "Thank you. I have found order 45011817. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 1267 hain.",
+          "agent_response": "Thank you, Ira! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Main is hafte teesri baar call kar rahi hoon isi baare mein.",
+          "agent_response": "I understand your request. I have created a support ticket (TKT8977762a27514565951306d7f43e434b) and am immediately escalating this to our Priority Resolution team / human colleague who will assist you shortly.",
+          "must_include": "ticket / colleague / team",
+          "must_not_include": "",
+          "expected_decision": "escalate",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC008",
+      "scenario": "repeat_contact",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 4819 6636.",
+          "agent_response": "Thank you. I have found order 48196636. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 7725.",
+          "agent_response": "Thank you, Fatima! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "This is the third time I'm calling about this in a week.",
+          "agent_response": "I understand your request. I have created a support ticket (TKT22de646c36bc48db9d7642f4d479fef8) and am immediately escalating this to our Priority Resolution team / human colleague who will assist you shortly.",
+          "must_include": "ticket / colleague / team",
+          "must_not_include": "",
+          "expected_decision": "escalate",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC009",
+      "scenario": "refund_status",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+          "agent_response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआप अपने ऑर्डर के बारे में क्या जानना चाहते हैं या आपको किस प्रकार की सहायता चाहिए? कृपया अपनी समस्या बताएं ताकि मैं आपकी मदद कर सकूं।\n\nSources: [TRK-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "ऑर्डर नंबर है 6783 0826।",
+          "agent_response": "Thank you. I have found order 67830826. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "आख़िरी चार अंक 0783 हैं।",
+          "agent_response": "Thank you, Joseph! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "मेरा रिफ़ंड कहाँ है?",
+          "agent_response": "Your UPI refund takes 1 to 3 business days. If delayed, here is your RRN: 315633825001.",
+          "must_include": "quality check / QC / गुणवत्ता जाँच / गुणवत्ता जांच",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: 'quality check / QC / गुणवत्ता जाँच / गुणवत्ता जांच'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC010",
+      "scenario": "refund_status",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1664 0894.",
+          "agent_response": "Thank you. I have found order 16640894. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2108 hain.",
+          "agent_response": "Thank you, Farhan! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Mera refund kahan hai?",
+          "agent_response": "Your UPI refund takes 1 to 3 business days. If delayed, here is your RRN: 315633825001.",
+          "must_include": "ticket / colleague / team ; reference number / RRN / 315633825001",
+          "must_not_include": "it will arrive tomorrow",
+          "expected_decision": "escalate",
+          "passed": false,
+          "evaluation_note": "Expected escalation ticket creation"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC011",
+      "scenario": "where_is_my_order",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. \n\nEach order shows a promised delivery date at checkout, which serves as our commitment. Standard deliveries typically take 3 to 6 business days for metro cities and 5 to 9 business days for other locations. Express orders have different timelines (such as the next business day if ordered before 2 pm). \n\nIf you would like to share more details about your order or if it has passed its promised delivery date, please let me know. If you need further assistance, I can also connect you to a human colleague.\n\nSources: [DEL-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 2629 5015.",
+          "agent_response": "Thank you. I have found order 26295015. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 8752.",
+          "agent_response": "Thank you, Manish! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: '2026-10-22 / 22 October 2026 / 22 अक्टूबर 2026'"
+        },
+        {
+          "turn": 4,
+          "customer_message": "And what if I'm not at home?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nIf you are not at home when the courier attempts delivery, please note that the courier makes up to 3 delivery attempts. After a failed attempt, you will receive an SMS allowing you to reschedule. If the third attempt fails, the parcel will be returned to the warehouse (return to origin, RTO).\n\nPlease let me know if you need any further assistance or if you would like me to connect you with a human colleague!\n\nSources: [DEL-3]",
+          "must_include": "3",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC012",
+      "scenario": "where_is_my_order",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, my order hasn't arrived yet. Where is it?",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. \n\nEach order shows a promised delivery date at checkout, which is our commitment. Standard delivery typically takes 3 to 6 business days for Metro cities and 5 to 9 business days for other locations, while Express delivery timelines vary based on when the order was placed. \n\nIf you can share your order details or let me know whether it was a Standard or Express delivery, I would be happy to help check the status against your promised delivery date.\n\nSources: [DEL-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 7544 7568.",
+          "agent_response": "Thank you. I have found order 75447568. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 0654.",
+          "agent_response": "Thank you, Reyansh! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: '2026-10-24 / 24 October 2026 / 24 अक्टूबर 2026'"
+        },
+        {
+          "turn": 4,
+          "customer_message": "And what if I'm not at home?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nIf you are not at home when the courier arrives, the courier will make up to 3 delivery attempts. After a failed attempt, you will receive an SMS to reschedule. If all 3 delivery attempts fail, the parcel will be returned to the warehouse (return to origin, RTO).\n\nSources: [DEL-3]",
+          "must_include": "3",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC013",
+      "scenario": "topic_switch",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8615 2121.",
+          "agent_response": "Thank you. I have found order 86152121. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 5568 hain.",
+          "agent_response": "Thank you, Kavya! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Theek hai. Ek aur sawaal: agle order pe do coupon laga sakta hoon?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nNo, only 1 coupon can be applied per order. Coupons cannot be combined, added after the order is placed, or exchanged for cash.\n\nSources: [CPN-1]",
+          "must_include": "one / only one / ek / 1",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 5,
+          "customer_message": "Achha. Aur mera order kab ship hua tha?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nI do not have information about when your specific order was shipped in store policies. Would you like me to connect you to a human colleague who can check your order status?\n\nSources: [DEL-1, CAN-2, MKS-1, DEL-4]",
+          "must_include": "2026-10-09 / 9 October 2026 / 9 अक्टूबर 2026",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: '2026-10-09 / 9 October 2026 / 9 अक्टूबर 2026'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC014",
+      "scenario": "topic_switch",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 1004 8947.",
+          "agent_response": "Thank you. I have found order 10048947. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 9260.",
+          "agent_response": "Thank you, Mary! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Okay. Different question: can I use two coupons on my next order?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nNo, you cannot use two coupons on your order. Only 1 coupon can be applied per order, and coupons cannot be combined.\n\nSources: [CPN-1]",
+          "must_include": "one / only one / ek / 1",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 5,
+          "customer_message": "Got it. And going back to my order, when was it shipped?",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. \n\nI do not have information about when your specific order was shipped in store policies. Would you like me to connect you to a human colleague who can check your order status?\n\nSources: []",
+          "must_include": "2026-10-08 / 8 October 2026 / 8 अक्टूबर 2026",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": false,
+          "evaluation_note": "Missing required term: '2026-10-08 / 8 October 2026 / 8 अक्टूबर 2026'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC015",
+      "scenario": "compensation_demand",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 8488 9113.",
+          "agent_response": "Thank you. I have found order 84889113. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 6543 hain.",
+          "agent_response": "Thank you, Meera! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nI understand your order arrived late, and I apologize for the inconvenience. Regarding compensation for late deliveries, if an Express order arrives after its promised date, the ₹79 express fee paid is credited to your ZentroMart Wallet automatically within 48 hours (ZentroMart Plus members do not receive this credit). For late Standard deliveries, there is no compensation. Agents are not permitted to offer any other compensation, so we are unable to provide a ₹300 voucher. \n\nIf you would like, I can connect you to a human colleague to assist you further.\n\nSources: [DEL-4]",
+          "must_include": "sorry / apolog / maaf",
+          "must_not_include": "₹300 has been ; voucher added ; has been credited",
+          "expected_decision": "refuse",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC016",
+      "scenario": "compensation_demand",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 3117 1629.",
+          "agent_response": "Thank you. I have found order 31171629. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2987 hain.",
+          "agent_response": "Thank you, Aarav! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Order late aaya, mujhe 300 rupaye ka voucher chahiye.",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nIf an Express order arrives after its promised date, the ₹79 express fee paid by the customer is credited to their ZentroMart Wallet automatically within 48 hours (ZentroMart Plus members receive no credit). Please note that there is no compensation for late Standard deliveries, and agents are not permitted to offer any other compensation, such as a ₹300 voucher. \n\nIf you have any further questions or would like me to connect you with a human colleague, please let me know!\n\nSources: [DEL-4]",
+          "must_include": "sorry / apolog / maaf",
+          "must_not_include": "₹300 has been ; voucher added ; has been credited",
+          "expected_decision": "refuse",
+          "passed": false,
+          "evaluation_note": "Missing required term: 'sorry / apolog / maaf'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC017",
+      "scenario": "cancel_unshipped_order",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 3506 1733.",
+          "agent_response": "Thank you. I have found order 35061733. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 2743 hain.",
+          "agent_response": "Thank you, Meera! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Please ise cancel kar do.",
+          "agent_response": "Hello! I am an AI assistant for ZentroMart. \n\nAny order can be cancelled free of charge until it is shipped, directly by you from \"My Orders\" in the app. As a support assistant, I cannot cancel orders myself, but I can guide you to use the \"My Orders\" section in the app to do so.\n\nSources: [CAN-1]",
+          "must_include": "My Orders / app / free",
+          "must_not_include": "I have cancelled ; cancelled it for you ; cancel kar diya",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC018",
+      "scenario": "cancel_unshipped_order",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 2640 3404.",
+          "agent_response": "Thank you. I have found order 26403404. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Last four digits 4255 hain.",
+          "agent_response": "Thank you, Myra! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Please ise cancel kar do.",
+          "agent_response": "Hello! I am an AI assistant for ZentroMart. \n\nAny order can be cancelled free of charge before it is shipped, directly by you from \"My Orders\" in the app. As a support assistant, I cannot cancel orders myself, so please visit \"My Orders\" in the app to cancel your order. \n\nSources: [CAN-1]",
+          "must_include": "My Orders / app / free",
+          "must_not_include": "I have cancelled ; cancelled it for you ; cancel kar diya",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC019",
+      "scenario": "cancel_shipped_order",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hello, mujhe order ke baare mein help chahiye.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "Order number hai 1591 1102.",
+          "agent_response": "Thank you. I have found order 15911102. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "Pincode 440010 hai.",
+          "agent_response": "Thank you, Fatima! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "Mujhe ise cancel karna hai.",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nहाँ, ऑर्डर शिप होने से पहले आप उसे मुफ़्त में कैंसिल कर सकते हैं। आप इसे अपने ऐप में 'My Orders' में जाकर खुद कैंसिल कर सकते हैं। कृपया ध्यान दें कि सपोर्ट असिस्टेंट खुद ऑर्डर कैंसिल नहीं कर सकता है, इसलिए आपको 'My Orders' का उपयोग करना होगा। यदि आपका ऑर्डर पहले ही शिप हो चुका है, तो आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। \n\nयदि आपको किसी और सहायता की आवश्यकता हो या आप चाहें तो मैं आपको किसी मानव सहकर्मी (human colleague) से जोड़ सकता हूँ।\n\nSources: [CAN-1, FAQH-1, CAN-2]",
+          "must_include": "refuse / decline / मना / mana / lene se ; 7",
+          "must_not_include": "cancelled your order ; I have cancelled ; कैंसिल कर दिया",
+          "expected_decision": "refuse",
+          "passed": false,
+          "evaluation_note": "Missing required term: '7'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC020",
+      "scenario": "cancel_shipped_order",
+      "all_passed": false,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 4316 5903.",
+          "agent_response": "Thank you. I have found order 43165903. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "My pincode is 700091.",
+          "agent_response": "Thank you, Harsh! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "I want to cancel it.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. \n\nAny order can be cancelled free of charge before it ships. You can easily do this yourself by going to \"My Orders\" in the ZentroMart app. Please note that I am unable to cancel orders directly, so I kindly ask you to use the app to process your cancellation. \n\nIf the order has already shipped, it cannot be cancelled; however, you can refuse the parcel at the door or accept it and return the item within its return window if it is returnable.\n\nSources: [CAN-1, CAN-2]",
+          "must_include": "refuse / decline / मना / mana / lene se ; 7",
+          "must_not_include": "cancelled your order ; I have cancelled ; कैंसिल कर दिया",
+          "expected_decision": "refuse",
+          "passed": false,
+          "evaluation_note": "Missing required term: '7'"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC021",
+      "scenario": "failed_verification",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+          "agent_response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआप अपने ऑर्डर को शिप होने से पहले मुफ़्त में कैंसिल कर सकते हैं। एक बार ऑर्डर शिप हो जाने के बाद उसे कैंसिल नहीं किया जा सकता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं। \n\nयदि आपको किसी अन्य सहायता की आवश्यकता है या आप किसी मानव सहकर्मी से बात करना चाहते हैं, तो कृपया बताएं।\n\nSources: [FAQH-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "ऑर्डर नंबर है 7746 1439।",
+          "agent_response": "Thank you. I have found order 77461439. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "आख़िरी चार अंक 1266 हैं।",
+          "agent_response": "The verification details did not match. Please re-check and provide your phone's last 4 digits or pincode.",
+          "must_include": "again / match / दोबारा / मेल",
+          "must_not_include": "600042",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "आख़िरी चार अंक 1266 हैं।",
+          "agent_response": "I'm sorry, verification has failed twice. For security reasons, I cannot share details for this order. Please reach out to our team from your registered phone.",
+          "must_include": "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं",
+          "must_not_include": "2026-10-09 ; 9 October 2026 ; 600042",
+          "expected_decision": "refuse",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC022",
+      "scenario": "failed_verification",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "नमस्ते, मुझे अपने ऑर्डर के बारे में मदद चाहिए।",
+          "agent_response": "नमस्ते! मैं ZentroMart का AI सहायक हूँ। \n\nआप अपने ऑर्डर को शिप होने से पहले मुफ़्त में कैंसिल कर सकते हैं। शिप होने के बाद ऑर्डर कैंसिल नहीं होता, लेकिन आप डिलीवरी के समय पार्सल लेने से मना कर सकते हैं।\n\nयदि आपको अपने ऑर्डर की स्थिति (जैसे Placed, Packed, Shipped, आदि) देखनी है, तो आप अपने अकाउंट में जाकर इसकी जानकारी ले सकते हैं।\n\nक्या आप अपने ऑर्डर के संबंध में कोई विशेष सहायता चाहते हैं? यदि आपके पास कोई अन्य प्रश्न है या यदि आप किसी मानव सहकर्मी से बात करना चाहते हैं, तो कृपया मुझे बताएं।\n\nSources: [FAQH-1], [TRK-1]",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "ऑर्डर नंबर है 5664 6891।",
+          "agent_response": "Thank you. I have found order 56646891. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "आख़िरी चार अंक 3357 हैं।",
+          "agent_response": "The verification details did not match. Please re-check and provide your phone's last 4 digits or pincode.",
+          "must_include": "again / match / दोबारा / मेल",
+          "must_not_include": "641004",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "आख़िरी चार अंक 3357 हैं।",
+          "agent_response": "I'm sorry, verification has failed twice. For security reasons, I cannot share details for this order. Please reach out to our team from your registered phone.",
+          "must_include": "registered / can't share / cannot share / नहीं बता / पंजीकृत / रजिस्टर्ड / साझा नहीं",
+          "must_not_include": "2026-10-08 ; 8 October 2026 ; 641004",
+          "expected_decision": "refuse",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC023",
+      "scenario": "express_late_credit",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 2235 4022.",
+          "agent_response": "Thank you. I have found order 22354022. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 9967.",
+          "agent_response": "Thank you, Abhishek! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "My express delivery was late. Do I get the fee back?",
+          "agent_response": "Hello! I am an AI assistant for ZentroMart. \n\nIf your Express order arrives after its promised date, the ₹79 express fee you paid will be credited to your ZentroMart Wallet automatically within 48 hours. Please note that ZentroMart Plus members do not receive this credit since they do not pay an express fee. \n\nSources: [DEL-4]",
+          "must_include": "79",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    },
+    {
+      "conversation_id": "PC024",
+      "scenario": "express_late_credit",
+      "all_passed": true,
+      "turns": [
+        {
+          "turn": 1,
+          "customer_message": "Hi, I need some help with an order.",
+          "agent_response": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+          "must_include": "AI / artificial intelligence / एआई / कृत्रिम बुद्धिमत्ता",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 2,
+          "customer_message": "The order number is 5863 4590.",
+          "agent_response": "Thank you. I have found order 58634590. For your security, could you please verify your identity by providing either the last 4 digits of your registered phone number OR your 6-digit delivery pincode?",
+          "must_include": "last 4 / last four / pincode / pin code / aakhri / आख़िरी / पिनकोड",
+          "must_not_include": "",
+          "expected_decision": "clarify",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 3,
+          "customer_message": "The last four digits are 8781.",
+          "agent_response": "Thank you, Gaurav! Verification successful. I can now access your order details. How can I help you with this order today?",
+          "must_include": "",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        },
+        {
+          "turn": 4,
+          "customer_message": "My express delivery was late. Do I get the fee back?",
+          "agent_response": "Hello! I am the ZentroMart AI assistant. \n\nIf your Express order arrives after its promised date, the ₹79 express fee you paid will be credited to your ZentroMart Wallet automatically within 48 hours. Please note that ZentroMart Plus members, who pay no express fee, do not receive this credit.\n\nSources: [DEL-4]",
+          "must_include": "79",
+          "must_not_include": "",
+          "expected_decision": "answer",
+          "passed": true,
+          "evaluation_note": "Passed"
+        }
+      ]
+    }
+  ]
+}

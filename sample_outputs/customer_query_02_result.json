@@ -1,0 +1,9 @@
+{
+  "input_audio": "customer_query_02.wav",
+  "transcription": "Hello, I need some help with an order.",
+  "agent_reply": "Hello! I am your ZentroMart AI assistant. I'm here to help you. Could you please share your 8-digit order ID so I can assist you?",
+  "output_audio": "customer_query_02_reply.wav",
+  "order_id": null,
+  "verified": false,
+  "ticket_id": null
+}

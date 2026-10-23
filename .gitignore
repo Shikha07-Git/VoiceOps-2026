@@ -1,0 +1,40 @@
+# Environment & secrets
+.env
+*.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset and temporary archives (Do not submit raw dataset)
+Capstone_Project_Dataset_FTTT_2026.zip
+*.zip
+.temp*
+tickets_created.csv
+reply*.wav
+
+# IDE
+.vscode/
+.idea/
+
+# Local capstone dataset
+Capstone_Project_Dataset_FTTT_2026/
+
+# Generated caches and temporary test outputs
+sample_outputs/kb_embeddings_cache.json
+sample_outputs/web_reply.wav
+batch_test_outputs/
+test_audio/
+
+# Local recordings
+sample_audio/
