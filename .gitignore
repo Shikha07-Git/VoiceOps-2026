@@ -26,6 +26,7 @@ reply*.wav
 
 # Submission duplicates & large video files (keep repo under GitHub limits)
 VoiceOps_Final_Submission/
+shikha_jha_voiceops/
 *.mp4
 VoiceOps_2026_Capstone_Report*.pdf
 
