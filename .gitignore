@@ -22,6 +22,12 @@ Capstone_Project_Dataset_FTTT_2026.zip
 .temp*
 tickets_created.csv
 reply*.wav
+*.wav
+
+# Submission duplicates & large video files (keep repo under GitHub limits)
+VoiceOps_Final_Submission/
+*.mp4
+VoiceOps_2026_Capstone_Report*.pdf
 
 # IDE
 .vscode/
